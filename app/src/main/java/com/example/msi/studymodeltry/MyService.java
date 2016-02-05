@@ -66,7 +66,7 @@ public class MyService extends Service {
 
     @Override
     public void onDestroy() {
-        System.out.println("--------going to stop---------");
+        System.out.println("---------going to stop----------");
         stopthread=true;
         super.onDestroy();
     }
